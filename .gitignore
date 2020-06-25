@@ -1,0 +1,53 @@
+/angular_2d_array/node_modules/
+/angular_2d_array/package-lock.json
+
+### Django ###
+*.log
+*.pot
+*.pyc
+/django_2d_array/__pycache__/
+/django_2d_array/.pytest_cache/
+/django_2d_array/local_settings.py
+/django_2d_array/db.sqlite3
+/django_2d_array/db.sqlite3-journal
+/django_2d_array/media
+/django_2d_array/static/scripts/dst/
+
+
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+/django_2d_array/pip-log.txt
+/django_2d_array/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+/django_2d_array/htmlcov/
+/django_2d_array/.tox/
+/django_2d_array/.nox/
+/django_2d_array/.coverage
+/django_2d_array/.coverage.*
+/django_2d_array/.cache
+/django_2d_array/nosetests.xml
+/django_2d_array/coverage.xml
+/django_2d_array/*.cover
+/django_2d_array/.hypothesis/
+/django_2d_array/.pytest_cache/
+
+# Celery stuff
+/django_2d_array/celerybeat-schedule
+/django_2d_array/celerybeat.pid
+

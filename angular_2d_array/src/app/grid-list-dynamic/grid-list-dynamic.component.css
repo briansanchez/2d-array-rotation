@@ -1,0 +1,29 @@
+.mat-button.mat-resume-rotation,
+.mat-stroked-button.mat-resume-rotation {
+    color: #01a646;
+    outline: none;
+
+}
+.mat-button.mat-resume-rotation:hover,
+.mat-stroked-button.mat-resume-rotation:hover {
+  background-color: #ffffff;
+  outline: none;
+
+}
+
+.mat-raised-button.mat-resume-rotation,
+.mat-flat-button.mat-resume-rotation,
+.mat-fab.mat-resume-rotation,
+.mat-mini-fab.mat-resume-rotation {
+  color: #ffffff;
+  background-color: #01a646;
+  outline: none;
+
+}
+
+.mat-icon-button.mat-resume-rotation {
+  color:#01a646;
+  outline: none;
+
+}
+

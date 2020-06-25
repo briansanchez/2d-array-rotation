@@ -1,0 +1,21 @@
+
+<div class="button-row">
+    <button mat-raised-button color="primary"  (click)="toggleTimer()"   [color]="timerOn ? 'primary' : 'resume-rotation'" > {{timerLabel}} </button>
+</div>
+
+<mat-grid-list cols="{{columns}}" rowHeight="50px">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.background"   [style.color]="tile.color"  [style.opacity]="tile.opacity"   >
+        {{tile.text}}  
+    </mat-grid-tile>
+  </mat-grid-list>
+  <br />
+  Next goal: 
+  <ul>
+
+    <li>add # of columns textbox and # of rows textbox for new grids of different size</li>
+    <li>add # of rotations textbox </li>
+    <li>allow rotation speed</li>
+  </ul>
+
+  
+  
